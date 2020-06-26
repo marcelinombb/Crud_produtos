@@ -1,0 +1,20 @@
+{
+    "name": "marcelino/crud_produtos",
+    "description": "Crud produtos",
+    "authors": [
+        {
+            "name": "marcelinmbb",
+            "email": "marcelino.m.b.braga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/",
+            "Views\\": "Views/"
+        }
+    }
+}
