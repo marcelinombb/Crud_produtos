@@ -13,7 +13,6 @@ class Products{
     }
 
     public function insertProduct($data = array()){
-        print_r($data);
         $query = "INSERT INTO products (name,price,description,image) VALUES(:name,:price,:description,:image)";
         $sttm = $this->conn->prepare($query);
         $sttm->bindValue(":name",$data["name"],PDO::PARAM_STR);
