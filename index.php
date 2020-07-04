@@ -1,5 +1,6 @@
 <?php
-include_once "vendor/autoload.php";
+//include_once "vendor/autoload.php";
+include_once "autoload.php";
 include_once "config.php";
 
 $url = filter_input(INPUT_GET, 'url', FILTER_SANITIZE_STRING);
